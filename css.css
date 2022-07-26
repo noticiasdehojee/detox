@@ -1,0 +1,136 @@
+body{
+    font-size: 14px;
+    color: #212121;
+    font-family: "Open Sans", sans-serif;
+    line-height: 20px;
+}
+
+a, a:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #181818;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+p{margin: 0 0 1.1em;}
+figure{
+    margin-bottom: 1.625em;
+}
+.stick-flutuante {
+    position: fixed;
+    bottom: 0px;
+    z-index: 9999;
+    width: 100%;
+    right: 0;
+    margin: 0;
+}
+/* .equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  } */
+figcaption{
+    background: #eee;
+    padding: 10px 5px 5px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.img-center{display: block;margin: 0 auto;}
+#header{
+    background: #fd5800;
+    padding: 20px 0 0 0;
+}
+.navbar-default {
+    background-color: #0f48a8;
+
+}
+.navbar{
+    border:0;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #FD5800;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+#experiencia-estagiaria, #box-experimente{
+    line-height: 24px !important;
+    color: #212121;
+    font-style: normal;
+    margin: 0 0 20px;
+    padding: 9px 20px 9px 19px;
+    background: #eee;
+}
+#experiencia-estagiaria h2, #box-experimente h3{
+    margin-top: 10px;
+}
+#box-verde{
+    border: 1px dotted #000;
+    background: #EFFFF7;
+    padding: 4px 9px;
+}
+.sidebar-area {
+    position: relative;
+   
+    height: 100%;
+  }
+.banner.fixed {
+    position: fixed;
+    top: 10px;
+    
+  }
+  .link-pv{cursor: pointer;}
+  .banner.bottom {
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    
+  }
+#footer{
+    background: #fd5800;
+    margin-top: 30px;
+    padding: 15px 0;
+    color: #fff;
+}
+#footer a, #footer a:hover{color: #ffffff;}
+
+/* @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .info {
+        min-height: 270px;
+    }
+}
+@media screen and (min-width: 1200px){
+	.single .container {
+        width: 960px;
+    }
+} */
+@media screen and (min-width: 768px){
+	.navbar {
+        border-radius: 0px;
+    }
+    .equal {
+        display: flex;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+      }
+    
+}
+@media screen and (max-width: 768px){
+	h1, h2{
+        font-size: 21px;
+    }  
+}
+@media screen and (min-width: 992px){
+    .container{width: 960px;}
+}
+@media screen and (min-width: 1200px){
+    .container{width: 960px;}
+}
